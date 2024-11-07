@@ -67,11 +67,11 @@ contract PointsHook is BaseHook, ERC20 {
         bytes calldata hookData
     ) external override onlyPoolManager returns (bytes4, int128) {
 		 // If this is not an ETH-TOKEN pool with this hook attached, ignore
-    if (key.currency1 != address(PolyStakeToken) && key.currency0 != address(PolyStakeToken)) return (this.afterSwap.selector, 0);
+    if (Currency.unwrap(key.currency1) != address(PolyStakeToken) && Currency.unwrap(key.currency0) != address(PolyStakeToken)) return (this.afterSwap.selector, 0);
 
 
         // mint point when swapping  PolyStakeToken 
-    i 
+    
     
         // Mint points equal to 20% of the amount of ETH they spent
     // Since its a zeroForOne swap:
@@ -100,7 +100,7 @@ contract PointsHook is BaseHook, ERC20 {
         bytes calldata hookData
     ) external override onlyPoolManager returns (bytes4, BalanceDelta) {
 		  // If this is not an ETH-TOKEN pool with this hook attached, ignore
-        if (key.currency1 != address(PolyStakeToken) && key.currency0 != address(PolyStakeToken)) return (this.afterSwap.selector, delta);
+     if (Currency.unwrap(key.currency1) != address(PolyStakeToken) && Currency.unwrap(key.currency0) != address(PolyStakeToken)) return (this.afterSwap.selector, delta);
 
     // Mint points equivalent to how much ETH they're adding in liquidity
     uint256 pointsForAddingLiquidity = uint256(int256(-delta.amount0()));
