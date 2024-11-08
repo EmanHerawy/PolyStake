@@ -132,6 +132,10 @@ https://github.com:EmanHerawy/PolyStake.git
 
 _Documentation coming soon_
 
+## How Polystake enhances Babylon
+
+by encouraging users to stake their tokens, Polystake helps secure the network and maintain stability. This incentivizes users to participate in network security, contributing to the overall health of the Babylon ecosystem. Additionally, the platform's trading features provide users with enhanced market-making capabilities, allowing them to maximize their returns while supporting network growth. By combining staking and trading mechanisms, Polystake offers a comprehensive solution for users looking to engage with the Babylon network.
+
 ## Security
 
 PolyStake's security model leverages the robust economic security of both Bitcoin and Ethereum networks, providing a multi-layered approach to protecting user assets and network integrity.
