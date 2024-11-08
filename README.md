@@ -1,7 +1,5 @@
-
-
 # PolyStake
-
+![OIG1.jpeg](https://cdn.dorahacks.io/static/files/193097a0006b1fcd3307d0f4800a0744.jpeg)
 > A secure orbit chain leveraging Bitcoin and Ethereum's economic security with incentivized staking and trading mechanisms.
 
 ## Overview
@@ -30,6 +28,20 @@ PolyStake is an innovative blockchain platform that combines the economic securi
 - Automated trading strategies
 - Enhanced market making capabilities
 
+## Demo 
+
+[Video](https://drive.google.com/file/d/1vWNvWqikHicHFYpdVS5IWpZrHUxb2RVv/view?usp=sharing)
+
+![photo_2024-11-07_21-12-06.jpg](https://cdn.dorahacks.io/static/files/1930979684d217c34183ad0494e86518.jpg)
+
+![photo_2024-11-07_21-12-16.jpg](https://cdn.dorahacks.io/static/files/1930979909cbb38af82ba344308ad442.jpg)
+
+![photo_2024-11-07_21-17-32.jpg](https://cdn.dorahacks.io/static/files/1930979c23f8431d3391c7c4e04b7b0f.jpg)
+
+
+
+## front end 
+https://github.com/Ty-HA/polystake-frontend
 ## Getting Started
 
 *Documentation coming soon*
