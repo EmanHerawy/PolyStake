@@ -22,11 +22,9 @@ contract Vault is ERC4626, Ownable, ReentrancyGuard {
     // Constructor to set the initial token and vault parameters
     constructor(
         address _underlyingAsset,
-        address _owner,
-        string memory _name,
-        string memory _symbol
+        address _owner     
     )
-        ERC20(_name, _symbol)
+        ERC20("Babylon", "BBL")
         ERC4626(IERC20Metadata(_underlyingAsset))
         Ownable(_owner)
     {

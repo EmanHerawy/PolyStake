@@ -24,7 +24,7 @@ contract DeployVault is Script {
         vm.startBroadcast(deployerPrivateKey);
 
         // Deploy the Vault contract
-        Vault vault = new Vault(underlyingAsset, owner, name, symbol);
+        Vault vault = new Vault(underlyingAsset, owner);
 
         // Stop broadcasting
         vm.stopBroadcast();
