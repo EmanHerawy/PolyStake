@@ -31,6 +31,18 @@ PolyStake is an innovative blockchain platform that combines the economic securi
 - Cross-chain communication between babylon and EVM is not yet implemented
 - The staking monitoring system is not yet implemented and we wanted to use to share reward to btc stakers in our system
 - Some gas issues with Altlayer 
+Frontend Challenges in Developing the Staking dApp:
+
+Understanding and Integrating Staking Functionalities:
+As a frontend developer, implementing staking features for the first time required a solid understanding of staking flows. Ensuring users could easily stake, unstake, and track rewards was essential. Designing an intuitive user flow to make complex blockchain concepts accessible was a real challenge.
+
+Wallet Compatibility and Integration:
+
+A key challenge was finding a wallet solution that supported both BTC and ETH. The solution was using TOMO for BTC compatibility and Wagmi for ETH, simplifying multi-chain interactions. Additionally, Reown AppKit and the Reown AppKit Adapter helped abstract complexities, improving wallet connectivity and enhancing the user experience.
+
+Implementing P2P API for Transaction List:
+
+Another challenge was integrating the P2P API to show a transaction list from our own Layer 2 (L2) solution built with AltLayer. This required working with the API to fetch and display real-time transaction data for users. The solution was to create a clean and efficient transaction list interface, allowing users to easily view their staking activities and balances from the L2 network.
 
 ## created chain
 - you can check transaction on the chain via https://babyty-explorer.alt.technology/address/0x92fB257891a69FBb600Dc7e79EA4A4541254a200 
